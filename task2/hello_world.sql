@@ -2,6 +2,10 @@
 -- Table structure for table `hello_world`
 --
 
+DROP DATABASE IF EXISTS `hello_world`;
+CREATE DATABASE `hello_world`;
+
+USE `hello_world`;
 DROP TABLE IF EXISTS `hello_world`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
@@ -30,5 +34,6 @@ UNLOCK TABLES;
 -- Dumping routines for database 'hello_world'
 --
 
+DROP USER IF EXISTS 'webapp';
 CREATE user 'webapp'@'%' identified by 'webpass123#';
-GRANT SELECT ON hello_world.hello_world TO 'webapp'@'%';
+GRANT SELECT ON `hello_world`.`hello_world` TO 'webapp'@'%';

@@ -1,5 +1,6 @@
 # Goal
-Using IaC get a working deployment of WordPress connecting to an external database and a cache server ready to be used.
+Using IaC recreate environment built on GCP with Wordpress connecting to CloudSQL and Redis Cache at AWS.
+You can use any tool of your best knowledge for that.
 
 # Requirements
 - Use VM for WordPress and Redis instances

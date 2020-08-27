@@ -6,7 +6,7 @@
 
 ## Inputs
 1. MySQL database dump file
-2. Python web application with configuration file
+2. Python web application with configuration file (run app with python3 index.py)
 
 ## Task
 Using Infrastructure as a Code (use language and tools of your choice) deploy the application and the database to AWS

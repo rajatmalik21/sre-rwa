@@ -28,7 +28,7 @@ Using Infrastructure as a Code (use language and tools of your choice) deploy th
 
 # Application details
 
-![Solution Archicture](images/XOTestArchitecture.png)
+![Solution Archicture](images/Diagram.png)
 
 This is the architecture design for solution implementation. It is designed to be non HA and single datanceter on porpuse.
 

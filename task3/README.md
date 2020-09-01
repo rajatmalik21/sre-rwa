@@ -37,7 +37,8 @@ $ terraform plan
 
 $ terraform apply
 </code></pre>
-1. Migration to AWS:
+## Migration to AWS:
+
   1. Using your preferred IaaC tooling, migrate the full stack of the application to AWS preserving static content and logs. **There is no requirement to deploy with Terraform, unless that is your preferred tooling.**
   2. The Requirements for your deployment to AWS are:
     1. Use EC2 for WordPress and Redis instances
